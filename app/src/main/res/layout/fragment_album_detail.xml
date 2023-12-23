@@ -4,10 +4,10 @@
     >
 
   <data>
-    <import type="com.naman14.timberx.network.models.ArtworkSize"/>
+    <import type="com.shashankmunda.musica.network.models.ArtworkSize"/>
     <variable
         name="album"
-        type="com.naman14.timberx.models.Album"
+        type="com.shashankmunda.musica.models.Album"
         />
   </data>
 

@@ -1,18 +1,18 @@
 ext.versions = [
         // App
         minSdk            : 21,
-        targetSdk         : 28,
+        targetSdk         : 33,
         versionCode       : 10,
         versionName       : "1.9",
 
         // Plugins
-        gradlePlugin      : "4.2.0-alpha13",
-        googleServices    : "4.2.0",
+        gradlePlugin      : '7.0.4',
+        googleServices    : "4.3.8",
         crashlyticsPlugin : "2.3.0",
         spotlessPlugin    : "3.17.0",
 
         // Kotlin
-        kotlin            : "1.4.10",
+        kotlin            : "1.9.10",
         coroutines        : "1.1.1",
 
         // AndroidX
@@ -27,11 +27,11 @@ ext.versions = [
         preference        : "1.1.0-alpha01",
 
         // Compose
-        compose           : "1.0.0-alpha04",
+        compose           : "1.4.0",
 
         // Arch Components
         lifecycle         : "2.1.0-alpha02",
-        room              : "2.2.5",
+        room              : "2.4.0",
         databinding       : "3.2.0-alpha10",
 
         // RxJava
@@ -49,9 +49,9 @@ ext.versions = [
         materialDialogs   : "2.1.0",
         crashlytics       : "17.2.2",
         glide             : "4.8.0",
-        gson              : "2.8.4",
-        retrofit          : "2.4.0",
-        retrofitGson      : "2.3.0",
+        moshi             : "1.10.0",
+        retrofit          : "2.9.0",
+        retrofitGson     : "2.9.0",
         nanoHttpd         : "2.3.1",
         koin              : "1.0.2",
 

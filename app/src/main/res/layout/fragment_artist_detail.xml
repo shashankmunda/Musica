@@ -5,14 +5,14 @@
     >
 
   <data>
-    <import type="com.naman14.timberx.network.models.ArtworkSize"/>
+    <import type="com.shashankmunda.musica.network.models.ArtworkSize"/>
     <variable
         name="artist"
-        type="com.naman14.timberx.models.Artist"
+        type="com.shashankmunda.musica.models.Artist"
         />
     <variable
         name="artistInfo"
-        type="com.naman14.timberx.network.models.ArtistInfo"
+        type="com.shashankmunda.musica.network.models.ArtistInfo"
         />
   </data>
 
@@ -33,7 +33,7 @@
           android:layout_height="270dp"
           >
 
-        <com.naman14.timberx.ui.widgets.SquareImageView
+        <com.shashankmunda.musica.ui.widgets.SquareImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/default_album_art_large"

@@ -8,7 +8,7 @@
 
         <variable
             name="viewModel"
-            type="com.naman14.timberx.ui.viewmodels.SearchViewModel" />
+            type="com.shashankmunda.musica.ui.viewmodels.SearchViewModel" />
     </data>
 
     <FrameLayout

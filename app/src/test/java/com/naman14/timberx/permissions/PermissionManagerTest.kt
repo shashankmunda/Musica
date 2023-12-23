@@ -12,7 +12,7 @@
  * See the GNU General Public License for more details.
  *
  */
-package com.naman14.timberx.permissions
+package com.shashankmunda.musica.permissions
 
 import android.Manifest.permission.WRITE_EXTERNAL_STORAGE
 import android.app.Activity
@@ -20,8 +20,8 @@ import android.app.Application
 import android.content.pm.PackageManager.PERMISSION_DENIED
 import android.content.pm.PackageManager.PERMISSION_GRANTED
 import com.google.common.truth.Truth.assertThat
-import com.naman14.timberx.TimberXApp
-import com.naman14.timberx.permissions.RealPermissionsManager.Companion.REQUEST_CODE_STORAGE
+import com.shashankmunda.musica.TimberXApp
+import com.shashankmunda.musica.permissions.RealPermissionsManager.Companion.REQUEST_CODE_STORAGE
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.doReturn
 import com.nhaarman.mockitokotlin2.eq
@@ -29,6 +29,8 @@ import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.never
 import com.nhaarman.mockitokotlin2.verify
 import com.nhaarman.mockitokotlin2.whenever
+import com.shashankmunda.musica.permissions.GrantResult
+import com.shashankmunda.musica.permissions.RealPermissionsManager
 import io.reactivex.schedulers.Schedulers.trampoline
 import org.junit.After
 import org.junit.Test
